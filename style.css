@@ -32,4 +32,38 @@ header {
 }
 .content {
     padding: 16px;
+    width: 100%;
+    max-width: 1500px;
+    margin-inline: auto;
+}
+.quote {
+    position: relative;
+    width: fit-content;
+    margin-inline: auto;
+    padding: 16px;
+    max-width: 500px;
+}
+.quote p {
+    text-align: center;
+}
+.quote i {
+    display: block;
+    color: grey;
+    padding: 0.5rem;
+}
+.quote::before {
+    position: absolute;
+    font-size: 5rem;
+    content: "❠";
+    color: red;
+    left: -1ch;
+    bottom: 0ch;
+}
+.quote::after {
+    position: absolute;
+    font-size: 5rem;
+    content: "❝";
+    color: red;
+    right: -1ch;
+    top: -0.5ch;
 }
