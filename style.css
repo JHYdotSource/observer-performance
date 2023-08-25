@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    letter-spacing: 0.02rem;
 }
 body {
     padding: 0;
@@ -36,6 +37,9 @@ header {
     max-width: 1500px;
     margin-inline: auto;
 }
+.content > p {
+    line-height: 1.4;
+}
 .quote {
     position: relative;
     width: fit-content;
@@ -45,6 +49,7 @@ header {
 }
 .quote p {
     text-align: center;
+    line-height: 1.4;
 }
 .quote i {
     display: block;
